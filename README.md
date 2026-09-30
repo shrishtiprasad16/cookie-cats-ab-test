@@ -77,3 +77,24 @@ The analysis followed a structured A/B testing workflow:
 
 6. **Business Recommendation**
    - Translated the statistical findings into a product-level recommendation
+  
+## Tools & Technologies
+
+- **Python**
+- **Pandas** — data manipulation and aggregation
+- **NumPy** — numerical analysis
+- **SciPy** — statistical testing
+- **Statsmodels** — two-proportion hypothesis testing and confidence intervals
+- **Matplotlib & Seaborn** — data visualization
+- **Jupyter Notebook** — analysis and documentation
+
+## Project Structure
+
+```text
+cookie-cats-ab-test/
+│
+├── README.md
+├── cookie_cats_ab_test.ipynb
+│
+└── data/
+    └── cookie_cats.csv
